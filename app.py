@@ -5,7 +5,7 @@ import requests
 
 # API ma'lumotlari
 API_URL = 'https://api.api-ninjas.com/v1/imagetotext'
-API_KEY = 'BBmkbdXKOWYZHpDRy76UFw==8UmOG7IHI9XryWjO'
+API_KEY = 'GV33D0f7Xxd0Dviil6nnvw==ITenHLuerFIbBuAK'
 
 def convert_image_to_text(image_file):
     """Tasvirni matnga aylantiradi API orqali"""
