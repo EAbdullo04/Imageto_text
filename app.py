@@ -30,7 +30,7 @@ st.write("Tasvirni yuklang va uni matnga aylantiring!")
 uploaded_file = st.file_uploader("Tasvir yuklash", type=["jpeg", "jpg", "png"])
 
 if uploaded_file is not None:
-    st.image(uploaded_file, caption="Yuklangan tasvir", use_column_width=True)
+    st.image(uploaded_file, caption="Yuklangan tasvir", use_container_width=True)  # use_container_width ishlatilmoqda
     
     if st.button("Tasvirni Matnga Aylantirish"):
         with st.spinner("Matn olinmoqda..."):
